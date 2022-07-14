@@ -1,0 +1,27 @@
+{{ if .Site.Data.homepage.our_special.enable }}
+<section id="why" class="section rad-animation-group">
+  <div class="container">
+    <div class="row flex-md-row rad-fade-down">
+      <div class="col-12 my-5 mt-sm-0 container6">
+        <h2 class="blue-font mx-auto">{{ .Site.Data.homepage.our_special.title }}</h2>
+      </div>
+      <div class="d-flex row">
+        {{ range .Site.Data.homepage.our_special.items }}
+        <div class="col-md-3 col-sm-6 text-center col-xs-6 col-6">
+          <img class="img-responsive" src="img/our-special/{{ .img }}" alt="logo" />
+          <h6 class="blue-font">{{ .title }}</h6>
+        </div>
+        {{end}}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<style>
+  div.container6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+</style>

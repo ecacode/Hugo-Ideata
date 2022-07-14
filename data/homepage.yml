@@ -1,7 +1,7 @@
 # homepage
 homepage:
   head:
-    title: "Home | Carola"
+    title: "Home | Ideata"
 # showcase
 showcase:
   enable: true
@@ -58,10 +58,10 @@ showcase:
 about:
   enable: true
   title: "About <br/> Our Company"
-  content: "Carola is a start-up company engaged in strategic
-    communication, especially in crisis management. We
-    provide 24 hour alerts to give you immediate
-    assistance.
+  content: "We focuses on broad analytical big data expertise
+    that will help you to get specific statistical and
+    analytical tools and get special insights for
+    developing a business.
     "
   button:
     btnText: "Read more"
@@ -74,14 +74,37 @@ what_we_do:
   enable: true
   title: "What we do?"
   description: "Understanding the ups and downs of your <br/> REPUTATION is very important to :"
+  items:
+    - title: "Expand the reach of your business"
+      img: "1.png"
+    - title: "Providing new Products and Services"
+      img: "2.png"
+    - title: "Costs are likely to be lower in Business Development Research"
+      img: "3.png"
+    - title: "EIncrease Market Speed"
+      img: "4.png"
 
-# why
-why:
+# Our Specialisazion
+our_special:
   enable: true
-  title: "Why Carola?"
-  image:
-    alt: "why image"
-    x: "img/why/why-image.png"
+  title: "Our Specialisazion"
+  items:
+    - title: "Healthcare"
+      img: "healthcare.png"
+    - title: "Financial & insurance"
+      img: "financial.png"
+    - title: "Food"
+      img: "food.png"
+    - title: "Retail"
+      img: "retail.png"
+    - title: "Telecomunication"
+      img: "telecomunication.png"
+    - title: "Industrial Manufacture"
+      img: "industrial-manufacture.png"
+    - title: "Transportation & Logistic"
+      img: "transportation-logistic.png"
+    - title: "NGO"
+      img: "ngo.png"
 
 # our service
 our_service:
@@ -91,66 +114,6 @@ our_service:
   image:
     alt: "our service image"
     x: "img/our-service/our-service-image.png"
-  items:
-    - img: "img/our-service/strategic.png"
-      title: "Strategic Communication in crisis"
-      description: "provides 24/7 support on
-        demand and also provides
-        crisis preparedness training
-        for various cross-sectoral
-        organizations including
-        companies, governments,
-        large-scale events,
-        transportation, aviation, and
-        manufacturing. "
-    - img: "img/our-service/digital-public.png"
-      title: "Digital Public Relations Strategies"
-      description: "Carola can draw up a plan
-        related to the digital campaign
-        strategy needed along with its
-        content. While digital space is
-        full of information, it is
-        important to stand out from
-        the rest by animating
-        interesting ideas. We are a PR
-        agency that can provide
-        solutions that are solutif for
-        your company."
-    - img: "img/our-service/special-event.png"
-      title: "Special Event"
-      description: "Launching new products /
-        brands? Campaign? Invite
-        media and key influencers?
-        And get public awareness?
-        Carola provides a team to
-        handle your special events"
-    - img: "img/our-service/content.png"
-      title: "Content"
-      description:
-        "Carola provides creative designers and copy writers to ensure your brand stands out in the crowded digital media space. Whether it’s videos, infographics, cinemagraphs, captions, articles, and press
-        releases"
-    - img: "img/our-service/media-relation.png"
-      title: "Media Relations & Publicity"
-      description: "If you want to achieve and
-        maintain a media presence,
-        manage a crisis, or plan a
-        better strategic approach in
-        the field of communication,
-        then Carola is your solution.
-        Our team has strong
-        experience in managing
-        publicity campaigns"
-    - img: "img/our-service/csr.png"
-      title: "Corporate social responsibility (CSR)"
-      description: "Corporate Social Responsibility
-        (CSR) has evolved from a trend
-        up to now an important part
-        of a community engagement
-        strategy that can form an
-        integral part of the company’s
-        strategic communication to
-        the community, staff and
-        other stakeholders."
 
 # product
 product:

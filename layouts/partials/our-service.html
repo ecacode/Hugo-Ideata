@@ -3,17 +3,23 @@
   <div class="container">
     <div class="rad-fade-down">
       <div class="text-center">
-        <h2 class="green-font">{{ .Site.Data.homepage.our_service.title }}</h2>
+        <h2 class="blue-font">{{ .Site.Data.homepage.our_service.title }}</h2>
         <p class="center-description">{{ .Site.Data.homepage.our_service.desc | safeHTML}}</p>
       </div>
       <div class="d-flex row">
-        {{ range .Site.Data.homepage.our_service.items }}
-        <div class="col-md-4 text-center">
-          <img class="img-responsive m-1" src="{{ .img }}" alt="logo" />
-          <h5 class="mx-4">{{ .title }}</h5>
-          <p class="mt-4 mx-3 text-justify">{{.description}}</p>
+        <div class="col-md-8 text-center mx-auto col-lg-8 col-12">
+          <img class="img-responsive m-1" src="img/our-service/outsourcing.png" alt="logo" />
+          <h3 class="mx-4 blue-font">Outsourcing</h3>
+          <p class="mt-4 mx-3 text-justify">
+            <b class="blue-font font-weight-bold">Managed Service : </b> IDEATA provides two levels of managed service options : Managed Services – This package stresses specific
+            output-based services rather than staff resourcing requirements. This program relies on service level agreements in which our clients are not committed to people but
+            instead are guaranteed specific services that will offer the best type of ongoing data management support for their business.<br />
+            Managed Innovation – This package provides outsourcing of core data management functions within your organization to our specialist. Depending on client preferences,
+            this option can be conducted either on-site or remotely.<br /><br />
+            <b class="blue-font font-weight-bold">Cloud Analytics :</b> IDEATA has developed our Cloud Services offering to seamlessly integrate with each of our clients’ unique
+            requirements. Our customer have an advantage that the ability to expand or contract computing resources based on demand so you only pay for what you need.
+          </p>
         </div>
-        {{end}}
       </div>
     </div>
   </div>
