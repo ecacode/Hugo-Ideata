@@ -1,0 +1,21 @@
+{{ if .Site.Data.homepage.our_service.enable }}
+<section class="section rad-animation-group mt-2" id="ourservice">
+  <div class="container">
+    <div class="rad-fade-down">
+      <div class="text-center">
+        <h2 class="green-font">{{ .Site.Data.homepage.our_service.title }}</h2>
+        <p class="center-description">{{ .Site.Data.homepage.our_service.desc | safeHTML}}</p>
+      </div>
+      <div class="d-flex row">
+        {{ range .Site.Data.homepage.our_service.items }}
+        <div class="col-md-4 text-center">
+          <img class="img-responsive m-1" src="{{ .img }}" alt="logo" />
+          <h5 class="mx-4">{{ .title }}</h5>
+          <p class="mt-4 mx-3 text-justify">{{.description}}</p>
+        </div>
+        {{end}}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,17 @@
+{{ if .Site.Data.homepage.what_we_do.enable }}
+<section class="section rad-animation-group mt-5" id="whatwedo">
+  <div class="container">
+    <div class="rad-fade-down">
+      <div class="text-center">
+        <h2 class="green-font">{{ .Site.Data.homepage.what_we_do.title }}</h2>
+        <p class="center-description">{{ .Site.Data.homepage.what_we_do.description | safeHTML}}</p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <img src="img/what-we-do/card-image.png" alt="Card image cap" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

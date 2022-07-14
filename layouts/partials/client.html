@@ -1,0 +1,19 @@
+{{ if .Site.Data.homepage.client.enable }}
+<section class="section rad-animation-group mt-5" id="client">
+  <div class="container">
+    <div class="rad-fade-down">
+      <div class="text-center my-2 mb-5">
+        <h2 class="green-font">{{ .Site.Data.homepage.client.title }}</h2>
+      </div>
+      <div class="row d-flex">
+        {{ range .Site.Data.homepage.client.clients }}
+        <div class="col-lg-2 col-md-2 col-xs-3 col-3">
+          <img class="img-responsive m-1" src="img/client/{{ .logo }}" alt="logo" />
+        </div>
+        {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

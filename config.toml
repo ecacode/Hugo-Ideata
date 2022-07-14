@@ -1,0 +1,115 @@
+# baseURL = "https://raditian-hugo.radity.com/"
+languageCode = "en-us"
+theme = "raditian-free-hugo-theme"
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "css/main.css"
+  [[params.plugins.css]]
+  URL = "css/rad-icons.css"
+  [[params.plugins.css]]
+  URL = "css/custom.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "js/sticky-header.js"
+  [[params.plugins.js]]
+  URL = "js/library/fontfaceobserver.js"
+
+
+# navigation
+[menu]
+
+  # Header
+  [[menu.header]]
+  name = "About Us"
+  URL = "#about"
+  weight = 2
+
+  [[menu.header]]
+  name = "Our Services"
+  URL = "#ourservice"
+  weight = 3
+
+  [[menu.header]]
+  name = "Article"
+  URL = "#product"
+  weight = 4
+
+  [[menu.header]]
+  name = "Client"
+  URL = "#client"
+  weight = 5
+  
+  # [[menu.header]]
+  # name = "Our Team"
+  # URL = "#ourteam"
+  # weight = 5
+
+  [[menu.header]]
+  name = "Contact Us"
+  URL = "#contact"
+  weight = 6
+
+  #Footer
+  [[menu.footer]]
+  name = "About Us"
+  URL = "#about"
+  weight = 2
+
+  [[menu.footer]]
+  name = "Our Services"
+  URL = "#ourservice"
+  weight = 3
+
+  [[menu.footer]]
+  name = "Article"
+  URL = "#product"
+  weight = 4
+  
+  [[menu.footer]]
+  name = "Client"
+  URL = "#client"
+  weight = 5
+  
+  # [[menu.footer]]
+  # name = "Our Team"
+  # URL = "#ourteam"
+  # weight = 5
+
+  [[menu.footer]]
+  name = "Contact Us"
+  URL = "#contact"
+  weight = 6
+
+
+[params]
+
+  sections = [
+    "showcase",
+    "about",
+    "what-we-do",
+    "why",
+    "our-service",
+    "product",
+    "client",
+    "contact",
+    "newsletter"
+  ]
+
+  googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
+
+  [params.logo]
+    text1 = "Carola"
+
+  [params.footer]
+      copyright = "© Carola. All rights reserved."
+      [params.footer.radity_logo]
+        x = "img/general/design-and-code-radity.png"
+        _2x = "img/general/design-and-code-radity@2x.png"
+        alt = "Design & Code - Radity"
