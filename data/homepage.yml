@@ -58,11 +58,7 @@ showcase:
 about:
   enable: true
   title: "About <br/> Our Company"
-  content: "We focuses on broad analytical big data expertise
-    that will help you to get specific statistical and
-    analytical tools and get special insights for
-    developing a business.
-    "
+  content: "IDEATA berfokus pada keahlian big data analitik yang luas yang akan membantu Anda untuk mendapatkan alat statistik dan analisis spesifik serta mendapatkan insight khusus untuk mengembangkan bisnis."
   button:
     btnText: "Read more"
   image:
@@ -89,21 +85,21 @@ our_special:
   enable: true
   title: "Our Specialisazion"
   items:
-    - title: "Healthcare"
+    - title: "Kesehatan"
       img: "healthcare.png"
-    - title: "Financial & insurance"
+    - title: "Keuangan & Asuransi"
       img: "financial.png"
-    - title: "Food"
+    - title: "Industri Pangan"
       img: "food.png"
     - title: "Retail"
       img: "retail.png"
-    - title: "Telecomunication"
+    - title: "Telekomunikasi"
       img: "telecomunication.png"
-    - title: "Industrial Manufacture"
+    - title: "Industri Manufaktur"
       img: "industrial-manufacture.png"
-    - title: "Transportation & Logistic"
+    - title: "Transportasi & Logistik"
       img: "transportation-logistic.png"
-    - title: "NGO"
+    - title: "LSM"
       img: "ngo.png"
 
 # our service
@@ -114,7 +110,12 @@ our_service:
   image:
     alt: "our service image"
     x: "img/our-service/our-service-image.png"
-
+  items:
+    - title: 'Pengalihdayaan (Outsourcing)'
+      description: '<b class="blue-font font-weight-bold">Layanan Pengelolaan : </b>IDEATA menyediakan dua opsi layanan pengelolaan </br> Layanan yang Dikelola - Paket ini menekankan layanan berbasis data spesifik dan bukan sumber daya staf. Program ini bergantung pada perjanjian tingkat layanan dengan klien kami dimana mereka tidak berkomitmen kepada sumber daya orang. Ini merupakan layanan khusus yang akan menawarkan dukungan manajemen data yang sedang berlangsung untuk kepentingan bisnis.<br />
+           Inovasi Terkelola - Paket ini menyediakan alih daya fungsi manajemen data inti dalam organisasi Anda ke spesialis kami. Bergantung pada preferensi klien, opsi ini dapat dilakukan di tempat atau dari jarak jauh.<br /><br />
+            <b class="blue-font font-weight-bold">Cloud Analytics :</b> IDEATA telah mengembangkan penawaran Layanan Cloud untuk berintegrasi dengan kebutuhan klien. Pelanggan memiliki keuntungan yaitu kemampuan untuk memperluas atau mengontrak sumber daya komputasi berdasarkan permintaan sehingga perusahaan hanya membayar layanan yang dibutuhkan.'
+      image: 'img/our-service/outsourcing.png'
 # product
 product:
   enable: true
