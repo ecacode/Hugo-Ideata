@@ -1,15 +1,13 @@
 # homepage
 homepage:
   head:
-    title: "Home | Ideata"
+    title: "BERANDA | Ideata"
 # showcase
 showcase:
   enable: true
-  title: "Get Solutions to your Business Decisions"
+  title: "Dapatkan solusi dalam tentukan keputusan bisnis anda."
   subtitle: "___________"
-  description: "We help company to get the insight though big
-    data in social and online media. Need Advisor
-    for you communication team?"
+  description: "Kami membantu perusahaan untuk dapatkan wawasan yang lebih luas melalui big data media sosial dan media online. Butuh penasihat untuk tim komunikasi anda?"
   image:
     alt: "Showcase keyboard and mouse image"
     # x: "img/showcase/landing-image.png"
@@ -20,7 +18,7 @@ showcase:
 
   button:
     icon: "icon-mail-fill"
-    btnText: "Request a demo"
+    btnText: "Minta Demo"
     URL: "https://radity.com/en/contact/"
 
   socialLinks:
@@ -57,10 +55,10 @@ showcase:
 # about
 about:
   enable: true
-  title: "About <br/> Our Company"
+  title: "Tentang <br/>Peruasahaan Kami"
   content: "IDEATA berfokus pada keahlian big data analitik yang luas yang akan membantu Anda untuk mendapatkan alat statistik dan analisis spesifik serta mendapatkan insight khusus untuk mengembangkan bisnis."
   button:
-    btnText: "Read more"
+    btnText: "Baca Selengkapnya"
   image:
     # x: "img/about/about.png"
     # _2x: "img/about/about.png"
@@ -68,22 +66,22 @@ about:
 # what we do
 what_we_do:
   enable: true
-  title: "What we do?"
-  description: "Understanding the ups and downs of your <br/> REPUTATION is very important to :"
+  title: "Apa Yang Kami Kerjakan?"
+  description: "Memahami naik turunnya REPUTASI anda <br/>sangatlah penting untuk:"
   items:
-    - title: "Expand the reach of your business"
+    - title: "Perluas jangkauan bisnis anda"
       img: "1.png"
-    - title: "Providing new Products and Services"
+    - title: "Menyediakan produk baru dan jasa"
       img: "2.png"
-    - title: "Costs are likely to be lower in Business Development Research"
+    - title: "Biaya cenderung lebih rendah dalam Riset Pengembangan Bisnis"
       img: "3.png"
-    - title: "EIncrease Market Speed"
+    - title: "Tingkatkan kecepatan pasar"
       img: "4.png"
 
 # Our Specialisazion
 our_special:
   enable: true
-  title: "Our Specialisazion"
+  title: "Spesialisasi / Keahlian Kami"
   items:
     - title: "Kesehatan"
       img: "healthcare.png"
@@ -105,8 +103,8 @@ our_special:
 # our service
 our_service:
   enable: true
-  title: "Our Service"
-  desc: "Our Client rely on our Data In :"
+  title: "Layanan Kami"
+  desc: "Klien kami mengandalkan data kami di :"
   image:
     alt: "our service image"
     x: "img/our-service/our-service-image.png"
@@ -119,7 +117,7 @@ our_service:
 # product
 product:
   enable: true
-  title: "Article"
+  title: "Artikel"
   image:
     alt: "product image"
     x: "img/product/product.png"
@@ -157,7 +155,7 @@ product:
 # client
 client:
   enable: true
-  title: "Client"
+  title: "Klient"
   image:
     alt: "client image"
     x: "img/client/client-image.png"
@@ -210,38 +208,38 @@ client:
 # contact
 contact:
   enable: true
-  title: "Contact"
+  title: "Kontak"
   form:
     method: "POST"
     action: "#"
-    full_name: "Full Name"
-    email: "Email Address"
-    message: "Type Your Message Here"
+    full_name: "Nama Lengkap"
+    email: "Alamat email"
+    message: "Ketik pesan anda disini"
   phone:
-    title: "Telephone"
-    number: "021 8064 1965"
+    title: "Telepon"
+    number: "0878 7222 0383"
   email:
-    title: "Email"
-    email: '<a href="mailto:info@astrabuana.id">info@astrabuana.id</a>'
+    title: "Surel"
+    email: '<a href="mailto:info@carola.id">info@carola.id</a>'
   website:
-    title: "Website"
-    website: '<a href="www.astrabuana.id">www.astrabuana.id</a>'
+    title: "Situs web"
+    website: '<a href="www.carola.id">www.carola.id</a>'
   address:
-    title: "Address"
-    address: "Klaster Griya Purwa No 146 Kompleks<br/>
-      Kavling DKI, Jl. Purwa Raya l Gg Hj Rajim<br/>
-      No.RT.6, RT.6/RW.3 Cipendak, Kec. Jagakarsa,<br/>
-      Kota Jakarta Selatan,<br/>
-      Daerah Khusus Ibukota Jakarta<br/>
+    title: "Alamat"
+    address: "Rukan De’Kahfi </br>
+      Jl. Moh. Kahfi 2 No 23 Blok Q,  RT 7/RW 3</br>
+      Cipedak, Jagakarsa, Jakarta Selatan</br>
+      Daerah Khusus Ibukota Jakarta </br>
       12630"
   button:
     icon: "icon-mail-fill"
-    btnText: "Send Message"
+    btnText: "Mengirim pesan"
 
 # newsletter
 newsletter:
   enable: true
-  title: "Newsletter subscription"
+  title: "Berlangganan Buletin"
   success_message: "Successfully subscribed"
   error_message: "Error while subscribing."
-  note: "We'll never share your email with anyone else."
+  note: "Kami tidak akan pernah membagikan email Anda kepada orang lain."
+
