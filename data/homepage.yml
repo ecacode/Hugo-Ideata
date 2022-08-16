@@ -66,16 +66,16 @@ about:
 # what we do
 what_we_do:
   enable: true
-  title: "Apa Yang Kami Kerjakan?"
-  description: "Memahami naik turunnya REPUTASI anda <br/>sangatlah penting untuk:"
+  title: "Apa yang Kami Kerjakan ?"
+  description: "Memahami naik turunnya REPUTASI Anda sangatlah penting untuk :"
   items:
-    - title: "Perluas jangkauan bisnis anda"
+    - title: "Perluas jangkauan bisnis Anda."
       img: "1.png"
-    - title: "Menyediakan produk baru dan jasa"
+    - title: "Menyediakan produk baru dan jasa."
       img: "2.png"
-    - title: "Biaya cenderung lebih rendah dalam Riset Pengembangan Bisnis"
+    - title: "Biaya cenderung lebih rendah dalam Riset Pengembangan Bisnis."
       img: "3.png"
-    - title: "Tingkatkan kecepatan pasar"
+    - title: "Tingkatkan kecepatan pasar."
       img: "4.png"
 
 # Our Specialisazion
@@ -155,7 +155,7 @@ product:
 # client
 client:
   enable: true
-  title: "Klient"
+  title: "Klien"
   image:
     alt: "client image"
     x: "img/client/client-image.png"
@@ -217,7 +217,7 @@ contact:
     message: "Ketik pesan anda disini"
   phone:
     title: "Telepon"
-    number: "0823-4141-0665"
+    number: "021-72742894"
   email:
     title: "Surel"
     email: '<a href="mailto:info@carola.id">info@carola.id</a>'
