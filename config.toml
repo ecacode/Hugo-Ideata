@@ -12,6 +12,8 @@ theme = "raditian-free-hugo-theme"
   URL = "css/rad-icons.css"
   [[params.plugins.css]]
   URL = "css/custom.css"
+  [[params.plugins.css]]
+  URL = "css/bootstrap.min.css"
 
   # JS Plugins
   [[params.plugins.js]]

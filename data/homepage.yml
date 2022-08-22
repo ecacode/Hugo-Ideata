@@ -55,7 +55,7 @@ showcase:
 # about
 about:
   enable: true
-  title: "Tentang <br/>Peruasahaan Kami"
+  title: "Tentang <br/>Perusahaan Kami"
   content: "IDEATA berfokus pada keahlian big data analitik yang luas yang akan membantu Anda untuk mendapatkan alat statistik dan analisis spesifik serta mendapatkan insight khusus untuk mengembangkan bisnis."
   button:
     btnText: "Baca Selengkapnya"
@@ -114,6 +114,34 @@ our_service:
            Inovasi Terkelola - Paket ini menyediakan alih daya fungsi manajemen data inti dalam organisasi Anda ke spesialis kami. Bergantung pada preferensi klien, opsi ini dapat dilakukan di tempat atau dari jarak jauh.<br /><br />
             <b class="blue-font font-weight-bold">Cloud Analytics :</b> IDEATA telah mengembangkan penawaran Layanan Cloud untuk berintegrasi dengan kebutuhan klien. Pelanggan memiliki keuntungan yaitu kemampuan untuk memperluas atau mengontrak sumber daya komputasi berdasarkan permintaan sehingga perusahaan hanya membayar layanan yang dibutuhkan.'
       image: 'img/our-service/outsourcing.png'
+      active: "active"
+    - title: 'Strategi'
+      description: '<b class="blue-font font-weight-bold">Analisis Kecerdasan Prediktif dan Kompetitif :</b> Menawarkan platform analitik yang dirancang untuk membantu perusahaan dalam pengambilan keputusan dengan membangun pendekatan yang berorientasi pada tujuan bisnis.<br /><br />
+                <b class="blue-font font-weight-bold">Pemasaran dan Analisis Pelanggan :</b> Memberikan tinjauan lengkap tentang peluang dan strategi bisnis untuk membantu pengembangan usaha.'
+      image: 'img/our-service/strategi.png'
+      active: ""
+    - title: 'Planning'
+      description: '<b class="blue-font font-weight-bold">Roadmap IDEATA :</b> Membantu direktur serta jajarannya untuk menyusun rencana terperinci yang akan memposisikan organisasi dalam pengembalian optimal atas investasi. Jika organisasi Anda sudah memiliki roadmap yang ada, IDEATA cakap dalam mengevaluasi, mengadaptasi, dan mengimplementasikan rencana menuju operasi terbaik di kelasnya.<br /><br />
+      <b class="blue-font font-weight-bold">Penilaian Khusus :</b> Membantu perusahaan untuk meningkatkan strategi yang ada dengan melihat data pasar dan menilai operasi internal yang telah diterapkan apakah strategi perusahaan itu sudah efektif dan memberikan analisis komparatif dengan mengevaluasi apa yang dilakukan kompetitor.<br /><br />
+      <b class="blue-font font-weight-bold">Layanan Tata Kelola IDEATA :</b> Meningkatkan standar tata kelola data klien kami dengan mengevaluasi proses data dari atas ke bawah, mengukur keakuratan, aksesibilitas, konsistensi data, dan kelengkapannya. Data yang terpapar mencakup data master pelanggan, data master produk, penyelarasan terkait tenaga penjualan, “tipe” manajemen, dan berbagai aspek bisnis terkait.<br /><br />
+      <b class="blue-font font-weight-bold">Solusi Arsitektur IDEATA :</b> Membantu untuk merencanakan layanan yang dapat membantu organisasi Anda dalam merancang solusi yang kuat dan berkelanjutan yang sepenuhnya dapat mendukung kebutuhan bisnis Anda saat ini, seiring pertumbuhan dan perubahan perusahaan Anda.<br /><br />
+      <b class="blue-font font-weight-bold">Perencanaan Organisasi IDEATA : </b>Membantu perusahaan untuk mengidentifikasi dan membangun Pusat Keunggulan yang secara efektif menyelaraskan departemen IT dan Bisnis dengan proses Business Intellegence, Big Data, dan Data Warehouse.<br /><br />
+      <b class="blue-font font-weight-bold"> IDEATA Proof of Value :</b> Membantu organisasi Anda menggunakan case yang lebih mudah dikelola untuk membuktikan efekifitas proses Big Data yang ingin dibangun.'
+      image: 'img/our-service/perencanaan.png'
+      active: ""
+    - title: 'Analisis'
+      description: '<b class="blue-font font-weight-bold">Big Data Analytics :</b> Dengan menggabungkan Business Intelligence, Data Warehousing, dan keahlian Big Data dengan teknik statistik canggih, IDEATA memberikan nilai tambah yang berarti bagi analitik Anda.<br /><br />
+        <b class="blue-font font-weight-bold">Pelaporan & Dasbor BI :</b> Membantu Anda memilih, mengoptimalkan, dan menggunakan berbagai alat analisis dan pelaporan yang dibuat sebelumnya untuk membantu Anda memahami pelanggan, merek, kompetitor, operasi, dan peluang pasar dengan menggabungkan analitik inovatif.'
+      image: 'img/our-service/analysis.png'
+      active: ""
+    - title: 'Data'
+      description: '<b class="blue-font font-weight-bold">Arsitektur Big Data :</b> IDEATA dapat membantu Anda dengan cepat memahami teknologi, alat, dan proses Big Data sehingga memiliki kemampuan untuk mengubah permainan di industri.<br /><br />
+      <b class="blue-font font-weight-bold">Lean Analytics Services :</b> IDEATA akan memberikan solusi analitik dengan mengambil keuntungan dari kekuatan pemrosesan dan kinerja teknologi Data Warehouse Appliance (DWA).<br /><br />
+      <b class="blue-font font-weight-bold">Data Warehousing :</b> IDEATA akan membantu untuk mengevaluasi, menginstal, mengkonfigurasi dan mengimplementasikan arsitektur data warehouse yang berkinerja tinggi. <br /><br />
+      <b class="blue-font font-weight-bold">Manajemen Data Master :</b> IDEATA akan membantu perusahaan Anda membangun kemampuan perusahaan, mengotomatisasi proses, meningkatkan kontrol, dan menggabungkan mekanisme kepatuhan di semua industri.<br /><br />
+      <b class="blue-font font-weight-bold">Optimalisasi Sistem :</b> IDEATA akan membantu perusahaan mengembangkan dan merekomendasikan perbaikan yang sesuai untuk infrastruktur Data Warehouse Anda, serta memandu bisnis dalam menjalankan solusi terbaik.'
+      image: 'img/our-service/data.png'
+      active: ""
 # product
 product:
   enable: true
@@ -139,6 +167,12 @@ product:
       description: "Menemukan Tren konsumen di pasar dan memahami lanskap industri anda yang berkembang serta"
       active: ""
       number: "3"
+
+    - title: "Wajah Baru Saya"
+      image: "img/product/PICT3.jpg"
+      description: "Menemukan Tren konsumen di pasar dan memahami lanskap industri anda yang berkembang serta"
+      active: ""
+      number: "4"
 
     # - title: "Analisis Kampanye & Krisis"
     #   image: "img/product/campaign.png"
