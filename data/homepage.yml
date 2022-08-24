@@ -5,9 +5,9 @@ homepage:
 # showcase
 showcase:
   enable: true
-  title: "Dapatkan solusi dalam tentukan keputusan bisnis anda."
+  title: "Dapatkan solusi dalam menentukan keputusan bisnis Anda."
   subtitle: "___________"
-  description: "Kami membantu perusahaan untuk dapatkan wawasan yang lebih luas melalui big data media sosial dan media online. Butuh penasihat untuk tim komunikasi anda?"
+  description: "Kami membantu perusahaan untuk mendapatkan wawasan yang lebih luas melalui big data media sosial dan media online. Butuh penasihat untuk tim komunikasi Anda ?"
   image:
     alt: "Showcase keyboard and mouse image"
     # x: "img/showcase/landing-image.png"
